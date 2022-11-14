@@ -10,7 +10,7 @@ jobs:
         id: hello
         uses: glebtee/me-docker-container-action@8306d4a08785914abf62da45f41811bc8c2e90fb
         with:
-          who-to-greet: 'Booba the Octobattt'
+          entryPoint: 'Booba the Octobattt'
 
       - name: Get the output time
         run: echo "The time was ${{ steps.hello.outputs.time }}"
