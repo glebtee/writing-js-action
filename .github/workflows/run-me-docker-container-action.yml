@@ -9,6 +9,7 @@ jobs:
       - name: Hello world action step
         id: hello
         uses: glebtee/me-docker-container-action@69ac3daa4fb02044172c053c1593cb2160703293
+        with:
           greet: 'Booba the Octobattt'
 
       - name: Get the output time
