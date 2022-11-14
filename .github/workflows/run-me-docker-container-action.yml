@@ -1,3 +1,4 @@
+name: Custom container action flow
 on: [push]
 
 jobs:
