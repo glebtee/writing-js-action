@@ -8,7 +8,7 @@ jobs:
     steps:
       - name: Hello world action step
         id: hello
-        uses: glebtee/me-docker-container-action@8306d4a08785914abf62da45f41811bc8c2e90fb
+        uses: glebtee/me-docker-container-action@v1.1
         with:
           who-to-greet: 'Booba the Octobattt'
 
